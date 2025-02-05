@@ -18,7 +18,7 @@ import numpy as np
 import uuid
  
 app = Flask(__name__)
-CORS(app, supports_credentials=True, origins=["http://10.245.146.250:5001/"])
+CORS(app, supports_credentials=True, origins=["http://localhost:5001"])
  
 # Configuration settings
 app.config.from_object("config.ApplicationConfig")
